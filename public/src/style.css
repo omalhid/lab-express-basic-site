@@ -1,0 +1,35 @@
+html{
+    font-family: 'Montserrat', sans-serif;
+    text-align: center;
+    justify-content: center;
+    background-color: antiquewhite;
+}
+
+h1{
+    font-weight: 900;
+}
+
+nav{
+    position: sticky;
+}
+
+ul{
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    margin: 30px;
+}
+
+#intro-img{
+    margin-top: 40px;
+    justify-content: center;
+    width: 40vw;
+    border-style: dotted;
+    border-width: 10px;
+}
+
+#about-paramore{
+    padding: 50px 150px;
+    text-align: justify;
+}
