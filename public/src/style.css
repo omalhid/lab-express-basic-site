@@ -11,9 +11,16 @@ h1{
 
 nav{
     position: sticky;
+    font-style: normal;
+
 }
 
-ul{
+a {
+    color:lightslategray;
+    text-decoration: none;
+}
+
+#nav-list{
     list-style: none;
     display: flex;
     flex-direction: row;
@@ -22,14 +29,52 @@ ul{
 }
 
 #intro-img{
-    margin-top: 40px;
-    justify-content: center;
-    width: 40vw;
     border-style: dotted;
     border-width: 10px;
+    width: 40vw;
+    margin-bottom: 20px;
 }
+
+#home-imgs{
+    margin-top: 40px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
 
 #about-paramore{
     padding: 50px 150px;
     text-align: justify;
 }
+
+table {
+    width: 75vw;
+    border-collapse: collapse;
+    margin-top: 20px;
+    margin-left: auto;
+    margin-right: auto;
+
+  }
+
+  th, td {
+    border: 1px solid #ddd;
+    padding: 8px;
+    text-align: center;
+  }
+
+  th {
+    background-color: #f2f2f2;
+  }
+
+  .album {
+    max-width: 100px;
+    max-height: 100px;
+  }
+
+  .songs-list{
+    list-style: none;
+    justify-content: center;
+    text-align: center;
+  }
